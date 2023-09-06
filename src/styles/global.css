@@ -181,7 +181,7 @@ input[type="number"] {
 
 .hero-slide{
   height: 80vh;
-  background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/v1693901084/Untitled_design_11_eu31s2.png);
+  background-image: url(https://res.cloudinary.com/db1i46uiv/image/upload/c_scale,q_70,w_1280/v1693901084/Untitled_design_11_eu31s2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,9 +239,9 @@ input[type="number"] {
   color: rgb(21, 127, 180) !important;
   
 }
-.swiper-button-next:after:hover, .swiper-button-prev:after:hover{
+.swiper-button-next:hover, .swiper-button-prev:hover{
   background-color: rgb(255 72 164) !important;
-  color: white !important;
+
 }
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
   opacity: .5 !important;
