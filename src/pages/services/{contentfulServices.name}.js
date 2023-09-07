@@ -44,7 +44,7 @@ const ServicesSinglePage = ({ data }) => {
       {slug === "clear-aligners" ? <ClearAligners /> : <NotFoundPage />}
       {slug === "domiciliary-care" ? <DomiciliaryCare /> : <NotFoundPage />}
       {slug === "whitening" ? <Whitening /> : <NotFoundPage />}
-      {slug === "emergency-dentistry" ? (
+      {slug === "emergency-dental" ? (
         <EmergencyDentistry />
       ) : (
         <NotFoundPage />
