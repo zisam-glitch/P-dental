@@ -54,7 +54,7 @@ const Footer = () => {
         <div>
           <Logo isFooter />
           <p className="my-10 font-light">{footerData?.footerDescription}</p>
-          <div className="flex items-center my-5">
+          <div className="flex items-center my-5 gap-2.5	">
             {/* {socials.map((social) => {
               const SocialIconComponent = social.icon;
               return (
