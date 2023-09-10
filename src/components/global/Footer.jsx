@@ -4,6 +4,7 @@ import { FiInstagram, FiMapPin, FiPhone, FiMail } from "react-icons/fi";
 import { Link, graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 import { navPages, policyPages } from "../../common/constant";
+import { BsFacebook, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -54,7 +55,7 @@ const Footer = () => {
           <Logo isFooter />
           <p className="my-10 font-light">{footerData?.footerDescription}</p>
           <div className="flex items-center my-5">
-            {socials.map((social) => {
+            {/* {socials.map((social) => {
               const SocialIconComponent = social.icon;
               return (
                 <a
@@ -65,8 +66,15 @@ const Footer = () => {
                   <SocialIconComponent className="text-primary group-hover:text-white transition-colors" />
                 </a>
                 
+                
               );
-            })}
+            })} */}
+            <a href="https://instagram.com/parish.dental?igshid=MzRlODBiNWFlZA==" className="icon">
+              <BsFacebook/>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100094065880755&mibextid=V3Yony" className="icon">
+              <BsInstagram/>
+            </a>
           </div>
 
           <div className="mt-10 flex items-center">
