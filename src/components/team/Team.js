@@ -10,6 +10,7 @@ const Team = () => {
         nodes {
           designation
           gdc
+          gmc
           name
           contentful_id
           type
@@ -65,6 +66,7 @@ const Team = () => {
                   image={dentist?.photo?.gatsbyImageData}
                   position={dentist?.designation}
                   gdc={dentist?.gdc}
+                  gmc={dentist?.gmc}
                 />
               ))}
             </div>

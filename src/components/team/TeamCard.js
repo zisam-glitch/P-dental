@@ -1,7 +1,7 @@
 import { GatsbyImage } from "gatsby-plugin-image";
 import React from "react";
 
-const TeamCard = ({ image, name, position, gdc }) => {
+const TeamCard = ({ image, name, position, gdc, gmc }) => {
   return (
     <div>
       <div className="rounded overflow-hidden">
@@ -16,8 +16,8 @@ const TeamCard = ({ image, name, position, gdc }) => {
         {gdc && gdc !== "" && (
           <p className="text-sm text-gray-600">GDC: {gdc}</p>
         )}
-        {gdc && gdc !== "" && (
-          <p className="text-sm text-gray-600">gdc: {gdc}</p>
+        {gmc && gmc !== "" && (
+          <p className="text-sm text-gray-600">GMC: {gmc}</p>
         )}
       </div>
     </div>
