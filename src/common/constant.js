@@ -15,7 +15,6 @@ export const policyPages = [
   { id: 3, name: "Cookie Policy", route: "/cookie-policy" },
   { id: 4, name: "CCTV Policy", route: "/cctv-policy" },
   { id: 5, name: "GDPR", route: "/gdpr" },
-  { id: 6, name: "Complaints Policy", route: "/complaints-policy" },
-  { id: 7, name: "Sitemap", route: "/sitemap" },
-  { id: 8, name: "Parish Dental Practice Policy ", route: "/parish-dental-practice-policy " },
+  { id: 6, name: "Sitemap", route: "/sitemap" },
+  { id: 7, name: "Parish Dental Practice Policy ", route: "/parish-dental-practice-policy " },
 ];

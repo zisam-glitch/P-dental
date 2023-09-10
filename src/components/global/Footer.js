@@ -64,6 +64,7 @@ const Footer = () => {
                 >
                   <SocialIconComponent className="text-primary group-hover:text-white transition-colors" />
                 </a>
+                
               );
             })}
           </div>
