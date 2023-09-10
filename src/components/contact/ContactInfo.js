@@ -32,11 +32,7 @@ const ContactInfo = () => {
       <a className="text-secondary my-2" href={`tel:${contactData?.phone}`}>
         {contactData?.phone}
       </a>
-      <div>
-        <a href="">facebook
-          <img src=""> </img>
-          </a >
-        </div>
+
     </section>
   );
 };
