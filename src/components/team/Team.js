@@ -48,7 +48,7 @@ const Team = () => {
           <SectionHeader
             subTitle="MEET OUR TEAM"
             mainTitle="Dentists & Staff"
-            description="We have a dedicated team consisting of highly skilled dentists and staffs who works relentlessly to preserve your happy smile."
+            description="We have a dedicated team consisting of highly skilled dentists and staff who works relentlessly to preserve your happy smile."
           />
         </div>
 
