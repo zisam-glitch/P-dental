@@ -23,6 +23,10 @@ export default function App() {
   return (
     <>
       <Swiper
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         cssMode={true}
         navigation={true}
         pagination={true}
@@ -32,38 +36,7 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="hero-slide">
-            <div className="content">
-              <div className="right">
-                <h3 className="tracking-[0.2em] uppercase bg-secondary text-white text-xs lg:text-sm px-3 py-2 inline-block rounded">
-                  DENTAL PRACTICE
-                </h3>
-                <h2 className="text-3xl sm:text-4xl md:text-6xl text-primary font-semibold capitalize my-2">
-                  <span className="inline-block bg-white my-1 px-3 py-2 rounded">
-                    Exceptional Dentistry &
-                  </span>
-                  <br />
-                  <span className="inline-block bg-white my-1 px-3 py-2 rounded">
-                    Welcoming Service
-                  </span>
-                </h2>
-                <div onClick={() => setIsOpen(!isOpen)}>
-                  <Button
-                    className="tracking-[0.2em] uppercase font-normal bg-primary mt-2 flex items-center text-xs"
-                    variant="filled"
-                    size="lg"
-                  >
-                    <BsFillCalendarDateFill className="mr-3 text-lg" />
-                    Appointment
-                  </Button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <MyModal isOpen={isOpen} setIsOpen={setIsOpen} />
-        </SwiperSlide>
-        <SwiperSlide>
-          {" "}
+        {" "}
           <div className="hero-slide1">
             <div className="content">
               <div className="right">
@@ -95,6 +68,38 @@ export default function App() {
               </div>
             </div>
           </div>
+          
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="hero-slide">
+            <div className="content">
+              <div className="right">
+                <h3 className="tracking-[0.2em] uppercase bg-secondary text-white text-xs lg:text-sm px-3 py-2 inline-block rounded">
+                  DENTAL PRACTICE
+                </h3>
+                <h2 className="text-3xl sm:text-4xl md:text-6xl text-primary font-semibold capitalize my-2">
+                  <span className="inline-block bg-white my-1 px-3 py-2 rounded">
+                    Exceptional Dentistry &
+                  </span>
+                  <br />
+                  <span className="inline-block bg-white my-1 px-3 py-2 rounded">
+                    Welcoming Service
+                  </span>
+                </h2>
+                <div onClick={() => setIsOpen(!isOpen)}>
+                  <Button
+                    className="tracking-[0.2em] uppercase font-normal bg-primary mt-2 flex items-center text-xs"
+                    variant="filled"
+                    size="lg"
+                  >
+                    <BsFillCalendarDateFill className="mr-3 text-lg" />
+                    Appointment
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <MyModal isOpen={isOpen} setIsOpen={setIsOpen} />
         </SwiperSlide>
         <SwiperSlide>
           {" "}
