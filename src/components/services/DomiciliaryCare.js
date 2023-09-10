@@ -18,7 +18,7 @@ const DomiciliaryCare = () => {
 
   return (
     <>
-      <PageHeader pageTitle="Domiciliary Care" />
+      <PageHeader pageTitle="Mobile Dentistry" />
       <div className="bg-gradient-to-b from-backgroundSecondary to-white py-10">
         <div
           className={`container mx-auto flex flex-col lg:flex-row px-10 items-start relative mb-20`}

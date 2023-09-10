@@ -42,7 +42,7 @@ const ServicesSinglePage = ({ data }) => {
       {slug === "general-dentistry" ? <GeneralDentistry /> : <NotFoundPage />}
       {slug === "aesthetics" ? <FacialAesthetics /> : <NotFoundPage />}
       {slug === "clear-aligners" ? <ClearAligners /> : <NotFoundPage />}
-      {slug === "domiciliary-care" ? <DomiciliaryCare /> : <NotFoundPage />}
+      {slug === "mobile-dentistry" ? <DomiciliaryCare /> : <NotFoundPage />}
       {slug === "whitening" ? <Whitening /> : <NotFoundPage />}
       {slug === "emergency-dental" ? (
         <EmergencyDentistry />
