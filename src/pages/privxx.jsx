@@ -1,18 +1,22 @@
 import React from "react";
 import Layout from "../components/global/Layout";
 import PageHeader from "../components/global/PageHeader";
+import { AiFillCaretDown } from "react-icons/ai";
 
 const ParishDentalPracticePolicy = () => {
   return (
     <Layout>
       <PageHeader pageTitle="Parish Dental Practice Policy" />
-      <div>
+      <div className="container mx-auto my-10	">
         <div tabindex="0" class="faqblock">
           <input type="checkbox" id="faq" />
           <label for="faq">
-            Can I accumulate pulses, and activate the output after a desired
-            number of pulses are received?
-          </label>
+            <div className="p"></div>
+            failed to attend policy
+            <div className="i">
+              <AiFillCaretDown />
+            </div>
+            </label>
           <div class="faqblock-content">
             <p>
               No. The PCM control modules will output for a set number of
