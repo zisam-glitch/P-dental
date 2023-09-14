@@ -69,6 +69,7 @@ export default function App() {
           </div>
           
         </SwiperSlide>
+        <SwiperSlide><Energency/></SwiperSlide>
         <SwiperSlide>
         <div className="hero-slide">
             <div className="content">
@@ -132,7 +133,7 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide><Energency/></SwiperSlide>
+       
       </Swiper>
     </>
   );

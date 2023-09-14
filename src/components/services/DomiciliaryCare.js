@@ -100,14 +100,16 @@ const DomiciliaryCare = () => {
 
             <section>
               <p className="text-gray-600 text-xl font-semibold mt-7">
-                Let us look after your dental health. Call us on{" "}
-                <a href="tel:01132638509" className="text-secondary">
-                  0113 263 8509{" "}
-                </a>
-                or{" "}
+                Prioritizse Your Smile with Convenient Dental Care Right at Your
+                Doorstep. Schedule a mobile
                 <Link to="#appointment" className="text-secondary">
-                  make an appointment.
-                </Link>
+                  dental appointment
+                </Link>{" "}
+                to your home or workplace today. Contact us at
+                <a href="mailto:hello@parishdental.co.uk" className="text-secondary">
+                hello@parishdental.co.uk
+                </a>
+                 to secure your spot.
               </p>
             </section>
           </article>
