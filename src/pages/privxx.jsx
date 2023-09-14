@@ -20,14 +20,7 @@ const ParishDentalPracticePolicy = () => {
           </label>
           <div class="faqblock-content">
             <p>
-              No. The PCM control modules will output for a set number of
-              seconds after every pulse is received. You will have to ensure
-              that the flow rate combined with the flow meter's pulse rate is
-              accounted for by ensuring the "on time" does not exceed the
-              available time between pulses. If you do need to accumulate
-              pulses, we recommend the SeaMetrics PT35 Pulse Timer. More
-              information can be found on the PT35{" "}
-              <a href="http://www.promagenviro.com/Counter-Timer">here</a>.
+              no offence
             </p>
           </div>
         </div>
