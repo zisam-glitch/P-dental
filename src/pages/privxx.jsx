@@ -7,10 +7,10 @@ const ParishDentalPracticePolicy = () => {
   return (
     <Layout>
       <PageHeader pageTitle="Parish Dental Practice Policy" />
-      <div className="container mx-auto my-10	">
+      <div className="container mx-auto my-40">
         <div tabindex="0" class="faqblock">
           <input type="checkbox" id="faq" />
-          <label for="faq">
+          <label for="faq" className="flex justify-between">
             <div className="p"></div>
             failed to attend policy
             <div className="i">

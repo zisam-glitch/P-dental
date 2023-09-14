@@ -253,15 +253,14 @@ input[type="number"] {
 }
 .faqblock {
   display: block;
-  background-color: #ccc;
-  width: 760px;
+  width: 90%;
 }
 .faqblock label {
 display:block;
 position:relative;
 padding: 1px 10px;
 margin: 2px;
-height: 25px;
+height: 50px;
 cursor: pointer;	
 color: #333;
 line-height: 25px;
