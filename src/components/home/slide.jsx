@@ -7,7 +7,7 @@ import "swiper/swiper.min.css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import { Autoplay, Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 import { Button } from "@material-tailwind/react";
 import { Link } from "gatsby";
 import Energency from "./EmergencyHomeBanner"
