@@ -251,133 +251,106 @@ input[type="number"] {
 .emergency24{
   height: 80vh;
 }
-<<<<<<< HEAD
-.lp-collapsible-content,
-.lp-collapsible-content * {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-=======
-.faqblock {
+.faq .faq-list {
+  padding: 0 100px;
+}
+
+.faq .faq-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li+li {
+  margin-top: 15px;
+}
+
+.faq .faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.faq .faq-list a {
   display: block;
-  width: 90%;
-}
-.faqblock label {
-display:block;
-position:relative;
-padding: 1px 10px;
-margin: 2px;
-height: 50px;
-cursor: pointer;	
-color: #333;
-line-height: 25px;
-font-size: 13px;
-display: flex;
-justify-content: space-between;
-font-weight: bold;
-    border:0;
-
-}
-.faqblock input {
-display: none;
-}
-.faqblock-content {
-  width: 760px;
-  position: absolute;
-  visibility: hidden;
-    border:0;
-
-
-}
-.faqblock:focus {
-  pointer-events: none;
-}
-.faqblock:focus .faqblock-content {
-  visibility: visible;
-  pointer-events: none;
-  position:relative;
-  background-color:#fff;
->>>>>>> parent of 5711ddb (comm)
-}
-
-.lp-collapsible-content {
-  width: 100%;
-}
-
-/* Style the buttons that are used to open and close the content */
-
-.lp-collapsible-content > .title {
-  background: #ffffff;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  height: 116px;
-  text-align: left;
-  border: none;
-  border-radius: 8px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
   outline: none;
-  transition: background-color 0.4s ease;
-  -webkit-transition: background-color 0.4s ease;
-  -moz-transition: background-color 0.4s ease;
-  -o-transition: background-color 0.4s ease;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.title {
-  color: #33475d;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
+.faq .faq-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #e82c88;
 }
 
-/* Add a background color to the button
-* if it is clicked on (add the .active class with JS),
-* and when you move the mouse over it (hover)
-*/
-
-.lp-collapsible-content > .title.active,
-.lp-collapsible-content > .title:hover {
-  background: #ffffff;
+.faq .faq-list .icon-show,
+.faq .faq-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
-/* Style the content. Note: hidden by default */
-
-.lp-collapsible-content > .content {
-  padding: 0 18px;
-  background: #ffffff;
-  max-height: 0;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  -webkit-transition: max-height 0.2s ease-out;
-  -moz-transition: max-height 0.2s ease-out;
-  -o-transition: max-height 0.2s ease-out;
-}
-.content {
-  font-family: Montserrat;
-  background: #6b7785;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
 }
 
-.lp-collapsible-content > .title:after {
-  content: "\25BC";
-  /* Unicode character for Black Down-Pointing Triangle.  */
-  font-size: 13px;
-  color: #94999f;
-  float: right;
-  margin-left: 5px;
-  margin-top: 3px;
+.faq .faq-list .icon-show {
+  display: none;
 }
 
-.lp-collapsible-content > .title.active:after {
-  content: "\25B2";
-  /* Unicode character for Black Up-Pointing Triangle.  */
+.faq .faq-list a.collapsed {
+  color: #36348d;
+  transition: 0.3s;
 }
+
+.faq .faq-list a.collapsed:hover {
+  color: #e82c88;
+}
+
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .faq .faq-list {
+    padding: 0;
+  }
+}
+
+
+  /*===== Footer===== */
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
+    color: #1f2029;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+  }
+  .footer span {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .footer a {
+    color: inherit;
+  }
+  .footer a:hover {
+    color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+  }
