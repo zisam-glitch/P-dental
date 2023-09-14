@@ -101,7 +101,7 @@ const DomiciliaryCare = () => {
             <section>
               <p className="text-gray-600 text-xl font-semibold mt-7">
                 Prioritizse Your Smile with Convenient Dental Care Right at Your
-                Doorstep. Schedule a mobile
+                Doorstep. Schedule a mobile{" "}
                 <Link to="#appointment" className="text-secondary">
                   dental appointment
                 </Link>{" "}
