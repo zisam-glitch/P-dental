@@ -1,58 +1,49 @@
-import React from "react";
-import Layout from "../components/global/Layout";
-import PageHeader from "../components/global/PageHeader";
-import { AiFillCaretDown } from "react-icons/ai";
+import Accordition from "../components/mobile-d";
+import { useTranslation, withTranslation } from "react-i18next";
 
-const ParishDentalPracticePolicy = () => {
+const FAQ = function () {
+  const { t } = useTranslation("faqBox");
   return (
-    <Layout>
-      <PageHeader pageTitle="Parish Dental Practice Policy" />
-      <div className="container mx-auto my-40">
-        <div tabindex="0" class="faqblock">
-          <input type="checkbox" id="faq" />
-          <label for="faq">
-            <div className="p">
-            failed to attend policy
-            </div>
-            <div className="i">
-              <AiFillCaretDown />
-            </div>
-          </label>
-          <div class="faqblock-content">
-            <p>
-              No. The PCM control modules will output for a set number of
-              seconds after every pulse is received. You will have to ensure
-              that the flow rate combined with the flow meter's pulse rate is
-              accounted for by ensuring the "on time" does not exceed the
-              available time between pulses. If you do need to accumulate
-              pulses, we recommend the SeaMetrics PT35 Pulse Timer. More
-              information can be found on the PT35{" "}
-              <a href="http://www.promagenviro.com/Counter-Timer">here</a>.
-            </p>
+    <div className="faq-section">
+      <div className="faq-header">
+        <p>{t("faq.header")}</p>
+      </div>
+      <div className="faq-container">
+        <div className="faq-row">
+          <div className="faq-column">
+            <Accordition title={t("faq.question1")} id="section_1">
+              <p>{t("faq.answer1")}</p>
+            </Accordition>
           </div>
-        </div>
-        <div tabindex="0" class="faqblock">
-          <input type="checkbox" id="faq" />
-          <label for="faq">
-            Can I accumulate pulses, and activate the output after a desired
-            number of pulses are received?
-          </label>
-          <div class="faqblock-content">
-            <p>
-              No. The PCM control modules will output for a set number of
-              seconds after every pulse is received. You will have to ensure
-              that the flow rate combined with the flow meter's pulse rate is
-              accounted for by ensuring the "on time" does not exceed the
-              available time between pulses. If you do need to accumulate
-              pulses, we recommend the SeaMetrics PT35 Pulse Timer. More
-              information can be found on the PT35{" "}
-              <a href="http://www.promagenviro.com/Counter-Timer">here</a>.
-            </p>
+          <div className="faq-column">
+            <Accordition title={t("faq.question2")} id="section_2">
+              <p>{t("faq.answer2")}</p>
+            </Accordition>
+          </div>
+          <div className="faq-column">
+            <Accordition title={t("faq.question3")} id="section_3">
+              <p>{t("faq.answer3")}</p>
+            </Accordition>
+          </div>
+          <div className="faq-column">
+            <Accordition title={t("faq.question4")} id="section_4">
+              <p>{t("faq.answer4")}</p>
+            </Accordition>
+          </div>
+          <div className="faq-column">
+            <Accordition title={t("faq.question5")} id="section_5">
+              <p>{t("faq.answer5")}</p>
+            </Accordition>
+          </div>
+          <div className="faq-column">
+            <Accordition title={t("faq.question6")} id="section_6">
+              <p>{t("faq.answer6")}</p>
+            </Accordition>
           </div>
         </div>
       </div>
-    </Layout>
+    </div>
   );
 };
 
-export default ParishDentalPracticePolicy;
+export default FAQ;
