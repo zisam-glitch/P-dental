@@ -46,9 +46,9 @@ const Schedule = () => {
       </div>
       <a
         className="bg-primary w-full block rounded-b text-center py-6 text-white"
-        href={`tel:${phone}`}
+        href={"tel:01133228354"}
       >
-        Call Us: {phone}
+        Call Us: 0113 322 8354
       </a>
     </aside>
   );
