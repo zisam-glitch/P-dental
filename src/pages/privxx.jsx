@@ -10,13 +10,14 @@ const ParishDentalPracticePolicy = () => {
       <div className="container mx-auto my-40">
         <div tabindex="0" class="faqblock">
           <input type="checkbox" id="faq" />
-          <label for="faq" className="flex justify-between">
-            <div className="p"></div>
+          <label for="faq">
+            <div className="p">
             failed to attend policy
+            </div>
             <div className="i">
               <AiFillCaretDown />
             </div>
-            </label>
+          </label>
           <div class="faqblock-content">
             <p>
               No. The PCM control modules will output for a set number of

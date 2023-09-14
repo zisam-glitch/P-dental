@@ -265,6 +265,8 @@ cursor: pointer;
 color: #333;
 line-height: 25px;
 font-size: 13px;
+display: flex;
+justify-content: space-between;
 font-weight: bold;
     border:0;
 
