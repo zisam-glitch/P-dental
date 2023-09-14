@@ -96,7 +96,7 @@ const Footer = () => {
 
         <div className="">
           <h3 className="font-medium text-xl mb-7">Quick Links</h3>
-          <div className="flex justify-between">
+          <div className="flex justify-between gap-x-5">
             <div>
               {navPages.map((item) => (
                 <Link
