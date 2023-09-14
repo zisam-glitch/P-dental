@@ -251,11 +251,53 @@ input[type="number"] {
 .emergency24{
   height: 80vh;
 }
+<<<<<<< HEAD
 .lp-collapsible-content,
 .lp-collapsible-content * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+=======
+.faqblock {
+  display: block;
+  width: 90%;
+}
+.faqblock label {
+display:block;
+position:relative;
+padding: 1px 10px;
+margin: 2px;
+height: 50px;
+cursor: pointer;	
+color: #333;
+line-height: 25px;
+font-size: 13px;
+display: flex;
+justify-content: space-between;
+font-weight: bold;
+    border:0;
+
+}
+.faqblock input {
+display: none;
+}
+.faqblock-content {
+  width: 760px;
+  position: absolute;
+  visibility: hidden;
+    border:0;
+
+
+}
+.faqblock:focus {
+  pointer-events: none;
+}
+.faqblock:focus .faqblock-content {
+  visibility: visible;
+  pointer-events: none;
+  position:relative;
+  background-color:#fff;
+>>>>>>> parent of 5711ddb (comm)
 }
 
 .lp-collapsible-content {
