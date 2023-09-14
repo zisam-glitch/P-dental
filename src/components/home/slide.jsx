@@ -24,14 +24,14 @@ export default function App() {
     <>
       <Swiper
         autoplay={{
-          delay: 500
+          delay: 3000
         }}
         cssMode={true}
         navigation={true}
         pagination={true}
         mousewheel={true}
         keyboard={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+        modules={[Autoplay, Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper"
       >
         <SwiperSlide>
